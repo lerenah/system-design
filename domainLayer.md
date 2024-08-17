@@ -204,3 +204,5 @@ def update_customer_email(customer_id, new_email, customer_repository):
 ### Summary
 
 Using the Domain Model pattern, you create rich, behavior-driven objects (like `Customer`) that encapsulate both the data and the business logic relevant to that domain entity. The repository pattern complements this by handling data persistence, enabling a clear separation between the domain logic and database access. This approach is typically more flexible and scalable, especially for complex applications where the business logic is more intricate and closely tied to the domain.
+
+"The vital difference is that a Domain Model has one instance of contract for each contract in the database whereas a Table Module has only one instance," 
